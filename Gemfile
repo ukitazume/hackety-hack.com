@@ -43,12 +43,12 @@ group :development do
 end
 
 gem 'rspec-rails'
+gem 'sqlite3'
 group :development, :test do
   gem 'fabrication'
   gem 'cucumber-rails', require: false
   gem "faker"
   gem 'pry'
-  gem 'sqlite3'
 end
 
 group :production do
