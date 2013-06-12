@@ -38,11 +38,7 @@ gem "semantic_menu",  git: "git://github.com/michaek/semantic_menu.git"
 gem 'will_paginate'    # Pagination
 gem 'rdiscount'   # Markdown
 
-group :development do
-  # Use unicorn as the web server
-  gem 'unicorn'
-end
-
+gem 'unicorn', '4.6.0'
 gem 'rspec-rails'
 gem 'sqlite3'
 group :development, :test do
