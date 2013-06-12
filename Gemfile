@@ -42,9 +42,9 @@ group :development do
   gem 'unicorn'
 end
 
+gem 'rspec-rails'
 group :development, :test do
   gem 'fabrication'
-  gem 'rspec-rails'
   gem 'cucumber-rails', require: false
   gem "faker"
   gem 'pry'
