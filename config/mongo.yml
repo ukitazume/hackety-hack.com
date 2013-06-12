@@ -15,5 +15,3 @@ production:
   <<: *defaults
   host: <%= URI.parse(EY::Config.get(:mongolab, 'MONGOLAB_URI')) %>
   database: hackety_hack_com
-  username: <%= ENV['MONGO_USERNAME'] %>
-  password: <%= ENV['MONGO_PASSWORD'] %>
