@@ -230,6 +230,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   devise (~> 2.2.2)
+  execjs
   ey_config
   fabrication
   faker

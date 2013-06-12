@@ -13,5 +13,5 @@ test:
 # set these environment variables on your prod server
 production:
   <<: *defaults
-  host: <%= URI.parse(EY::Config.get(:mongolab, 'MONGOLAB_URI')) %>
+  # host: <%= URI.parse(EY::Config.get(:mongolab, 'MONGOLAB_URI')) %>
   database: hackety_hack_com

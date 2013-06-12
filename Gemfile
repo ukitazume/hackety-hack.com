@@ -17,6 +17,7 @@ gem 'bson_ext'
 
 gem 'mongo'
 gem 'ey_config'
+gem 'execjs'
 
 # Gems used only for assets and not required
 # in production environments by default.
