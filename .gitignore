@@ -7,4 +7,5 @@ tmp/
 .DS_Store
 *.swp
 .redcar
+.eyrc
 bin/

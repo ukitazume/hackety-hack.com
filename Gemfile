@@ -15,6 +15,9 @@ gem 'jquery-rails'
 gem 'mongo_mapper'
 gem 'bson_ext'
 
+gem 'mongo'
+gem 'ey_config'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
