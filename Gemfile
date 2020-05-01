@@ -15,7 +15,7 @@ gem 'jquery-rails'
 gem 'mongo_mapper'
 gem 'bson_ext'
 
-gem 'mongo'
+gem 'mongo', '>= 2.0.0'
 gem 'ey_config'
 gem 'execjs'
 
