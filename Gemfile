@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 
 ruby '1.9.3'
 
-gem 'rails', '3.1.11'
+gem 'rails', '4.0.0'
 gem 'json'
 
 gem 'hackety_hack-lessons', '~> 1.1', :require => 'hackety_hack/lessons'
@@ -43,7 +43,7 @@ gem 'rspec-rails'
 gem 'sqlite3'
 group :development, :test do
   gem 'fabrication'
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails', '>= 1.4.0', require: false
   gem "faker"
   gem 'pry'
 end
