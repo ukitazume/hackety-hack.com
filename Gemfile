@@ -11,7 +11,7 @@ gem 'json'
 gem 'hackety_hack-lessons', '~> 1.1', :require => 'hackety_hack/lessons'
 
 gem 'haml-rails'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 gem 'mongo_mapper'
 gem 'bson_ext'
 
