@@ -12,7 +12,7 @@ gem 'hackety_hack-lessons', '~> 1.1', :require => 'hackety_hack/lessons'
 
 gem 'haml-rails'
 gem 'jquery-rails'
-gem 'mongo_mapper'
+gem 'mongo_mapper', '>= 0.15.0'
 gem 'bson_ext'
 
 gem 'mongo'
@@ -28,7 +28,7 @@ group :assets do
 end
 
 gem "devise",     "~> 2.2.2"
-gem 'mm-devise',  '~> 2.0'
+gem 'mm-devise', '~> 2.0'
 gem 'cancan'
 
 gem 'inherited_resources'
