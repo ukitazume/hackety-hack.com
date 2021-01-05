@@ -43,7 +43,7 @@ gem 'rspec-rails'
 gem 'sqlite3'
 group :development, :test do
   gem 'fabrication'
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails', '>= 1.3.1', require: false
   gem "faker"
   gem 'pry'
 end
