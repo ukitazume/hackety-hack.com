@@ -8,7 +8,7 @@ ruby '1.9.3'
 gem 'rails', '3.1.11'
 gem 'json'
 
-gem 'hackety_hack-lessons', '~> 1.1', :require => 'hackety_hack/lessons'
+gem 'hackety_hack-lessons', '~> 1.1', '>= 1.1.2', :require => 'hackety_hack/lessons'
 
 gem 'haml-rails'
 gem 'jquery-rails'
